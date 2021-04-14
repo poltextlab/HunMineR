@@ -1,0 +1,27 @@
+Package: HunMineR
+Title: Companion package to the Hungarian text mining textbook: www.szovegbanyaszat.hu
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Ákos",
+             family = "Máté",
+             role = c("aut", "cre"),
+             email = "mate.akos@tk.hu"),
+      person(given = "Sebők",
+             family = "Miklós",
+             role = "aut"),
+      person(given = "Ring",
+             family = "Orsolya",
+             role = "aut"),
+      person(given = "poltextLab",
+             role = c("cph", "fnd")))
+Description: The package provides the data examples used in the Hungarian text mining textbook, 
+  titled Szövegbányászat és mesterséges intelligencia R-ben. It contains text data, stopwords and metadata used in the textbook.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests:
+  quanteda
+Depends: 
+    R (>= 3.5.0)
