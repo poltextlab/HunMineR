@@ -1,0 +1,15 @@
+#' Hungarian laws metadata, 1998-2006
+#'
+#' The dataset contains metadata for the 1 032 Hungarian laws passed during the 1998-2002 and 2002-2006 parliamentary cycles, which can be found in data_lawtext_1998_2006.
+#'
+#' @format It is a `data.frame`, with 1 033 observation, 4 variables:
+#' \describe{
+#'    \item{txt_filename}{File names of the text source files. The syntax is lawtitle.txt.}
+#'    \item{year}{Year, when the law passed}
+#'    \item{electoral_cycle}{A character variable, indicating the electoral cycle when the law was passed. The values are "1998-2002" and "2002-2006".}
+#'    \item{majortopic}{The Comparative Agendas Project majortopic code, assigned by human coding. For the detailed codebook please see the CAP documenation at \url{https://cap.tk.hu/en/dataoverview}}
+#' }
+#'
+#' @source \url{https://cap.tk.hu/en/dataoverview}
+#'
+"data_lawtext_meta"
