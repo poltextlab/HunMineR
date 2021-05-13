@@ -1,3 +1,5 @@
 .Rproj.user
 temp/
-docs
+.vscode
+*.Rproj
+.Rhistory
