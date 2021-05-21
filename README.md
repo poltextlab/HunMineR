@@ -16,7 +16,7 @@ The package is not available on CRAN (yet) but the development version
 can be downloaded from GitHub with `devtools`:
 
 ``` r
-devtools::install_github("aakosm/HunMineR")
+devtools::install_github("poltextlab/HunMineR")
 ```
 
 ## Usage
